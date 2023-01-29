@@ -7,7 +7,7 @@
         <h5 style="font-size: 40px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
       <div class="col-lg-6">
-        <img class="ss" src="http://localhost:3000/images/a.png" style="max-width: 400px" alt="">
+        <img class="ss" src="https://highjob.webagent.ir/images/a.png" style="max-width: 400px" alt="">
       </div>
     </div>
 
