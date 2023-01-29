@@ -15,10 +15,8 @@
       <div class="col-12 mx-auto ">
         <div class="card border-0 shadow">
           <div class="card-body pb-5">
-
             <div class="form">
               <form action="">
-
                 <h5 class="d-inline-block  pb-2 mb-3">جستجو کنید</h5>
                 <div class="row">
                   <div class="col-lg-10 col-lg-11">
