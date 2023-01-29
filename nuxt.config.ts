@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default {
-    publicRuntimeConfig: {
-        baseURL: 'https://highjob.webagent.ir/'
-    },
+    // publicRuntimeConfig: {
+    //     baseURL: 'https://highjob.webagent.ir/'
+    // },
 app:{
     head:{
         title: 'highjob',
