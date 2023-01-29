@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+
+export default {
+    publicRuntimeConfig: {
+        baseURL: 'https://highjob.webagent.ir/'
+    },
 app:{
     head:{
         title: 'highjob',
@@ -8,8 +12,8 @@ app:{
         ],
         link: [
             {rel: 'stylesheet', href:'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css', integrity:'sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N', crossorigin: 'anonymous' },
-            {rel: 'stylesheet', href:'https://highjob.webagent.ir/css/fonts.css' },
-            {rel: 'stylesheet', href:'https://highjob.webagent.ir/css/style.css' }
+            {rel: 'stylesheet', href:'/css/fonts.css' },
+            {rel: 'stylesheet', href:'/css/style.css' }
 
         ],
 
@@ -25,4 +29,4 @@ app:{
 
     }
 
-})
+}
