@@ -51,7 +51,7 @@
               <div v-for="item in 10" class="col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card border-0 shadow-sm" style="">
                   <div class="card-body">
-                    <img src="images/b.jpg" class="rounded img-fluid" alt="">
+                    <img src="http://localhost:3000/images/b.jpg" class="rounded img-fluid" alt="">
                     <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
                     <small class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</small>
                     <div class="d-flex justify-content-between">
