@@ -6,7 +6,7 @@ export default {
     // },
 app:{
     head:{
-        title: 'highjob',
+        title: 'HighJob',
         meta:[
             {name: "description", content: "find jobs!"}
         ],
