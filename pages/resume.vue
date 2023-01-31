@@ -50,8 +50,8 @@
               </div>
 
               <h6 class="d-inline-block pb-2 mb-2">تحصیلات <i class="cursor-pointer px-2 fw-bolder" style="font-size: 25px" title="افزودن">+</i></h6>
-              <div class="row border rounded mx-1 p-3">
-
+              <div class="row  rounded mx-1 p-3 frame">
+                <h6 class="d-inline-block pb-2 mb-2">رشته </h6>
                 <div class="col-sm-6 mb-3">
                   <input type="text" name="" class="form-control form-control-sm" placeholder="مکان">
                 </div>
@@ -75,7 +75,8 @@
               </div>
 
               <h6 class="d-inline-block pb-2 mb-2">مهارت ها<i class="cursor-pointer px-2 fw-bolder" style="font-size: 25px" title="افزودن">+</i></h6>
-              <div class="row border rounded mx-1 p-3">
+              <div class="row  rounded mx-1 p-3 frame">
+                <h6 class="d-inline-block pb-2 mb-2">عنوان </h6>
 
                 <div class="col-sm-6 mb-3">
                   <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
@@ -86,7 +87,8 @@
               </div>
 
               <h6 class="d-inline-block pb-2 mb-2">سابقه کار<i class="cursor-pointer px-2 fw-bolder" style="font-size: 25px" title="افزودن">+</i></h6>
-              <div class="row border rounded mx-1 p-3">
+              <div class="row  rounded mx-1 p-3 frame">
+                <h6 class="d-inline-block pb-2 mb-2">عنوان شغلی </h6>
 
                 <div class="col-sm-6 mb-3">
                   <input type="text" name="" class="form-control form-control-sm" placeholder="شرکت">
@@ -110,7 +112,8 @@
               </div>
 
               <h6 class="d-inline-block pb-2 mb-2">زبان ها<i class="cursor-pointer px-2 fw-bolder" style="font-size: 25px" title="افزودن">+</i></h6>
-              <div class="row border rounded mx-1 p-3">
+              <div class="row  rounded mx-1 p-3 frame">
+                <h6 class="d-inline-block pb-2 mb-2">عنوان </h6>
 
                 <div class="col-sm-6 mb-3">
                   <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
@@ -121,7 +124,8 @@
               </div>
 
               <h6 class="d-inline-block pb-2 mb-2">لینک ها<i class="cursor-pointer px-2 fw-bolder" style="font-size: 25px" title="افزودن">+</i></h6>
-              <div class="row border rounded mx-1 p-3">
+              <div class="row  rounded mx-1 p-3 frame">
+                <h6 class="d-inline-block pb-2 mb-2">عنوان </h6>
 
                 <div class="col-sm-6 mb-3">
                   <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
@@ -157,13 +161,13 @@
 .cursor-pointer{
   cursor: pointer;
 }
-input, textarea , select{
-  border: none;
-  background-color: whitesmoke;
 
-}
 input:focus{
   outline: transparent !important;
 }
+.frame{
+  background-color: whitesmoke;
+}
+
 </style
 >

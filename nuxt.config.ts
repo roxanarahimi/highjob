@@ -1,6 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default {
+    target: 'static',
+
+    ssr: true,
+
+    generate: {
+        fallback: '404.html',
+    },
+
     // publicRuntimeConfig: {
     //     baseURL: 'https://highjob.webagent.ir/'
     // },

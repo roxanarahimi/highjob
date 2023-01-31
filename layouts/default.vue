@@ -28,7 +28,7 @@
 
 </script>
 
-<style scoped>
+<style>
 ul li{
   list-style: none;
 
@@ -40,5 +40,11 @@ ul li a, a{
   font-weight: 500;
   padding-right: 10px;
   padding-left: 10px;
+}
+input, textarea , select{
+  /*border: none;*/
+  /*background-color: whitesmoke;*/
+  border: #ececec 1px solid !important;
+
 }
 </style>
