@@ -1,5 +1,8 @@
+*{
+    direction: rtl !important;
+    text-align: right !important;
+}
 body{
-    direction: rtl;
     overflow-x: hidden;
 }
 
