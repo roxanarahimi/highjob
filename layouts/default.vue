@@ -2,14 +2,23 @@
 <div class="container-fluid px-0 ">
 <header>
 
-<div class="w-100 d-flex  px-3">
-  <NuxtLink to="/" ><h1>HighJob</h1></NuxtLink>
-  <ul class="d-flex py-3">
-   <li><NuxtLink to="/" >خانه</NuxtLink></li>
-    <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
-    <li><NuxtLink to="/login" >ورود</NuxtLink></li>
-    <li><NuxtLink to="/resume" >رزومه</NuxtLink></li>
-  </ul>
+<div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
+ <div class="d-flex  px-3">
+   <NuxtLink to="/" ><h1>HighJob</h1></NuxtLink>
+   <ul class="d-flex py-3">
+     <li><NuxtLink to="/" >خانه</NuxtLink></li>
+     <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
+     <li><NuxtLink to="/resume" >رزومه</NuxtLink></li>
+   </ul>
+ </div>
+
+ <div class="px-3">
+
+   <ul class="d-flex py-3">
+     <li><NuxtLink class="btn btn-primary" to="/login" >ورود/ ثبت نام</NuxtLink></li>
+   </ul>
+ </div>
+
 
 
 
