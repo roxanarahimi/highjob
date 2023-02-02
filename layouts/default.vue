@@ -4,18 +4,18 @@
 
 <div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
  <div class="d-flex  px-3">
-   <NuxtLink to="/" ><h1>HighJob</h1></NuxtLink>
+   <NuxtLink  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
    <ul class="d-flex py-3">
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
      <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
-     <li><NuxtLink to="/resume" >رزومه</NuxtLink></li>
+     <li><NuxtLink to="/resume-maker" >رزومه ساز</NuxtLink></li>
    </ul>
  </div>
 
  <div class="px-3">
 
    <ul class="d-flex py-3">
-     <li><NuxtLink class="btn btn-primary" to="/login" >ورود/ ثبت نام</NuxtLink></li>
+     <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>
    </ul>
  </div>
 
@@ -66,5 +66,8 @@ box-shadow:none !important;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-body{
+  padding: 0px !important;
 }
 </style>

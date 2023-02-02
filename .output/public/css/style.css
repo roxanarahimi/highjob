@@ -21,7 +21,7 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(218, 218, 218, 0.44);
+    background: rgba(255, 98, 98, 0.46);
     border-radius: 10px;
     cursor: pointer !important;
 
@@ -29,16 +29,39 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(206, 206, 206, 0.45);
+    background: rgba(255, 98, 98, 0.8);
     cursor: pointer !important;
 
 }
 
 .btn-primary{
-    background-color: hotpink;
-    border-color: hotpink;
+    background-color: #ff6262;
+    border-color: #ff6262;
 }
 .btn-primary{
-    background-color: hotpink;
-    border-color: hotpink;
+    background-color: #ff6262;
+    border-color: #ff6262;
+    color: white !important;
+
+}
+.btn-primary:focus, .btn-primary:hover{
+    background-color: #ff6262;
+    border-color: #ff6262;
+    color: white !important;
+}
+.btn-outline-primary {
+    color: #ff6262;
+    border-color: #ff6262;
+}
+.btn-outline-primary:hover {
+    background-color: #ff6262;
+    border-color: #ff6262;
+
+}
+.text-primary{
+    color: #ff6262 !important;
+}
+.router-link-active:not(.btn-primary), .router-link-exact-active:not(.btn-primary), a:hover{
+    color: #ff6262 !important;
+
 }
