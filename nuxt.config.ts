@@ -9,9 +9,9 @@ export default {
         fallback: '404.html',
     },
 
-    // publicRuntimeConfig: {
-    //     baseURL: 'https://highjob.webagent.ir/'
-    // },
+    publicRuntimeConfig: {
+        baseURL: 'https://highjob.webagent.ir'
+    },
 app:{
     head:{
         title: 'HighJob',
