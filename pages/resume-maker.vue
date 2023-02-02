@@ -323,7 +323,7 @@
 
 </script>
 
-<style scoped>
+<style>
 .cursor-pointer {
   cursor: pointer;
 }

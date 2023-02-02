@@ -75,7 +75,7 @@
 
 </script>
 
-<style scoped>
+<style>
 /*input{*/
 /*  border: none;*/
 /*}*/

@@ -50,7 +50,7 @@
 
 </script>
 
-<style scoped>
+<style>
 .txt{
   padding-top: 150px;
   text-align: right !important;
