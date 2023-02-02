@@ -20,7 +20,7 @@
                 <div class="row">
                   <div class="col-sm-6 mb-3">
 
-                    <img src="http://localhost:3000/images/b.jpg" class="border rounded" height="80">
+                    <img src="https://highjob.webagent.ir/images/b.jpg" class="border rounded" height="80">
                   </div>
                   <div class="col-sm-6 mb-3" style="padding-top: 50px  ">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">

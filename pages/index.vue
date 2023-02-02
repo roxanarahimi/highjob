@@ -7,7 +7,7 @@
         <h5 style="font-size: 40px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
       <div class="col-lg-6">
-        <img class="ss" src="http://localhost:3000/images/a.png" style="max-width: 400px" alt="">
+        <img class="ss" src="https://highjob.webagent.ir/images/a.png" style="max-width: 400px" alt="">
       </div>
     </div>
 
@@ -42,36 +42,6 @@
         </div>
       </div>
     </div>
-
-    <div class="row mt-4 d-none">
-
-      <div class="col-12 mx-auto">
-        <div class="card border-0 shadow">
-          <div class="card-body pb-5">
-
-            <div class="row">
-
-              <div v-for="item in 10" class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card" style="">
-                  <div class="card-body">
-<!--                    <img src="/images/b.jpg" class="rounded img-fluid" alt="">-->
-                    <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
-                    <p class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</p>
-                    <div class="d-flex justify-content-between">
-                      <small class="fw-lighter mt-1 mb-2">تهران</small>
-                      <small class="fw-lighter mt-1 mb-3">دور کاری</small>
-                    </div>
-                    <!--                    <button class="btn btn-primary" style="float: left !important">ارسال رزومه</button>-->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
   </div>
 
 </template>
