@@ -9,7 +9,7 @@ body{
     width: 7px;
     height: 4px;
     cursor: pointer !important;
-    background-color: whitesmoke !important;
+    background-color: transparent !important;
 }
 
 /* Track */
@@ -21,7 +21,7 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #a9a9a9;
+    background: rgba(218, 218, 218, 0.44);
     border-radius: 10px;
     cursor: pointer !important;
 
@@ -29,7 +29,16 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: darkgray;
+    background: rgba(206, 206, 206, 0.45);
     cursor: pointer !important;
 
+}
+
+.btn-primary{
+    background-color: hotpink;
+    border-color: hotpink;
+}
+.btn-primary{
+    background-color: hotpink;
+    border-color: hotpink;
 }
