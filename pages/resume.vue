@@ -22,7 +22,7 @@
 
           </div>
           <div class="row">
-            <div class="col-3 pe-4">
+            <div class="col-md-3 pe-4">
               <p><b>رکسانا رحیمی</b></p>
               <p class="mb-0"><small>09128222725</small></p>
               <p class="mb-0"><small>ms.roxanarahimi@gmail.com</small></p>
@@ -41,7 +41,7 @@
 
 
             </div>
-            <div class="col-9">
+            <div class="col-md-9">
 
 
               <p class="mt-3"><i class="bi bi-star-fill me-2 "></i><b>درباره من</b></p>

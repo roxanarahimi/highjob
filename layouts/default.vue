@@ -2,9 +2,9 @@
 <div class="container-fluid px-0 ">
 <header>
 
-<div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
+<div class="d-md-flex mx-auto justify-content-between" style="max-width: 1000px;" >
  <div class="d-flex  px-3">
-   <NuxtLink  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
+   <NuxtLink class="d-none d-md-block"  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
    <ul class="d-flex py-3">
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
      <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
@@ -13,9 +13,8 @@
  </div>
 
  <div class="px-3">
-
-   <ul class="d-flex py-3">
-     <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>
+   <ul class=" py-3">
+     <li><NuxtLink class="btn btn-primary text-light" to="/login" style="float:left;" >ورود/ ثبت نام</NuxtLink></li>
    </ul>
  </div>
 
@@ -27,7 +26,7 @@
 </header>
 
 
-  <div class="mx-auto px-5 px-xl-2" style="max-width: 1000px;">
+  <div class="mx-auto px-2 px-xl-2" style="max-width: 1000px;">
     <slot />
   </div>
 </div>

@@ -65,3 +65,8 @@ body{
     color: #ff6262 !important;
 
 }
+.col-6, .col-3, .col-4, .col-xxl-4,
+.col-sm-6,
+.col-lg-3{
+    padding: 5px !important;
+}

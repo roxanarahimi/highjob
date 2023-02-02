@@ -11,16 +11,16 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">جستجوی پیشرفته</h6>
                 <div class="row">
-                  <div class="col-3">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="عنوان شغلی" class="form-control form-control-sm">
                   </div>
-                  <div class="col-3">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="گروه شغلی" class="form-control form-control-sm">
                   </div>
-                  <div class="col-3">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="شهر" class="form-control form-control-sm">
                   </div>
-                  <div class="col-3">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="مرتب سازی" class="form-control form-control-sm">
                   </div>
                 </div>
@@ -28,11 +28,11 @@
             </div>
 
             <div class="mt-3">
-              <button class="btn btn-sm btn-outline-primary me-3">کارآموزی</button>
-              <button class="btn btn-sm btn-outline-primary me-3">دورکاری</button>
-              <button class="btn btn-sm btn-outline-primary me-3">تمام وقت</button>
-              <button class="btn btn-sm btn-outline-primary me-3">پاره وقت</button>
-              <button class="btn btn-sm btn-outline-primary me-3">پروژه ای</button>
+              <button class="btn btn-sm btn-outline-primary me-2 mb-2">کارآموزی</button>
+              <button class="btn btn-sm btn-outline-primary me-2 mb-2">دورکاری</button>
+              <button class="btn btn-sm btn-outline-primary me-2 mb-2">تمام وقت</button>
+              <button class="btn btn-sm btn-outline-primary me-2 mb-2">پاره وقت</button>
+              <button class="btn btn-sm btn-outline-primary me-2 mb-2">پروژه ای</button>
             </div>
 
           </div>
