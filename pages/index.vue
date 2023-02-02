@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-const img1='/images/a.png';
+const img1='../dist/public/images/a.png';
 </script>
 
 <style>
