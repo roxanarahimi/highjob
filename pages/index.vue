@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-const img1='/images/a.png';
+const img1='https://highjob.webagent.ir/images/a.png';
 </script>
 
 <style>

@@ -12,7 +12,11 @@ export default {
     publicRuntimeConfig: {
         baseURL: 'https://highjob.webagent.ir'
     },
-app:{
+    analyze: {
+        analyzerMode: 'static'
+    },
+
+    app:{
     head:{
         title: 'HighJob',
         meta:[
