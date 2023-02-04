@@ -4,7 +4,7 @@
       <div class="col-lg-6 txt" >
         <h1 style="font-size: 100px;text-align: left !important">شغل</h1>
         <h3 style="font-size: 60px;text-align: left !important">رویاهاتو </h3>
-        <h5 style="font-size: 40px;text-align: left !important">اینجا پیدا کن </h5>
+        <h5 style="font-size: 35px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
       <div class="col-lg-6">
         <img class="ss" :src="img1" style="max-width: 400px" alt="">

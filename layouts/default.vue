@@ -37,6 +37,79 @@
 </script>
 
 <style>
+
+body{
+  direction: rtl !important;
+  text-align: right !important;
+  overflow-x: hidden;
+  font-family: 'IranSans';
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 4px;
+  cursor: pointer !important;
+  background-color: transparent !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grery;*/
+  /*border-radius: 10px;*/
+  cursor: pointer !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 98, 98, 0.46);
+  border-radius: 10px;
+  cursor: pointer !important;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 98, 98, 0.8);
+  cursor: pointer !important;
+
+}
+
+.btn-primary{
+  background-color: #ff6262;
+  border-color: #ff6262;
+}
+.btn-primary{
+  background-color: #ff6262;
+  border-color: #ff6262;
+  color: white !important;
+
+}
+.btn-primary:focus, .btn-primary:hover{
+  background-color: #ff6262;
+  border-color: #ff6262;
+  color: white !important;
+}
+.btn-outline-primary {
+  color: #ff6262;
+  border-color: #ff6262;
+}
+.btn-outline-primary:hover {
+  background-color: #ff6262;
+  border-color: #ff6262;
+
+}
+.text-primary{
+  color: #ff6262 !important;
+}
+.router-link-active:not(.btn-primary), .router-link-exact-active:not(.btn-primary), a:hover{
+  color: #ff6262 !important;
+
+}
+.col-6, .col-3, .col-4, .col-xxl-4,
+.col-sm-6,
+.col-lg-3{
+  padding: 5px !important;
+}
 ul li{
   list-style: none;
 

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="row mt-4 px-3">
+  <div class="row mt-4 ">
     <div class="d-flex  mb-3">
 <!--      <h6 class="d-inline-block pb-2 ">فرم رزومه</h6>-->
 
@@ -56,8 +56,8 @@
                     <textarea class="form-control mb-3" rows="6"></textarea>
                   </div>
                 </div>
-                <h6 class="d-inline-block pb-2 mb-2">تحصیلات <i class="cursor-pointer px-2 fw-bolder text-primary"
-                                                                style="font-size: 25px" title="افزودن">+</i></h6>
+                <h6 class="d-inline-block pb-2 mb-2">تحصیلات <span class="cursor-pointer px-2 fw-bolder text-primary"
+                                                                style="font-size: 25px" title="افزودن">+</span> </h6>
                 <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -98,8 +98,8 @@
                   </div>
                 </div>
 
-                <h6 class="d-inline-block pb-2 mb-2">مهارت ها<i class="cursor-pointer px-2 fw-bolder text-primary"
-                                                                style="font-size: 25px" title="افزودن">+</i></h6>
+                <h6 class="d-inline-block pb-2 mb-2">مهارت ها<span class="cursor-pointer px-2 fw-bolder text-primary"
+                                                                style="font-size: 25px" title="افزودن">+</span> </h6>
                 <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample1">
                   <div class="accordion-item ">
                     <h2 class="accordion-header" id="flush-heading1">
@@ -176,8 +176,8 @@
                 </div>
 
 
-                <h6 class="d-inline-block pb-2 mb-2">سابقه کار<i class="cursor-pointer px-2 fw-bolder text-primary"
-                                                                 style="font-size: 25px" title="افزودن">+</i></h6>
+                <h6 class="d-inline-block pb-2 mb-2">سابقه کار<span class="cursor-pointer px-2 fw-bolder text-primary"
+                                                                 style="font-size: 25px" title="افزودن">+</span> </h6>
                 <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample2">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne2">
@@ -219,8 +219,8 @@
                 </div>
 
 
-                <h6 class="d-inline-block pb-2 mb-2">زبان ها<i class="cursor-pointer px-2 fw-bolder text-primary"
-                                                               style="font-size: 25px" title="افزودن">+</i></h6>
+                <h6 class="d-inline-block pb-2 mb-2">زبان ها<span class="cursor-pointer px-2 fw-bolder text-primary"
+                                                               style="font-size: 25px" title="افزودن">+</span> </h6>
                 <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample3">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingLang1">
@@ -271,8 +271,8 @@
                 </div>
 
 
-                <h6 class="d-inline-block pb-2 mb-2">لینک ها<i class="cursor-pointer px-2 fw-bolder text-primary"
-                                                               style="font-size: 25px" title="افزودن">+</i></h6>
+                <h6 class="d-inline-block pb-2 mb-2">لینک ها<span class="cursor-pointer px-2 fw-bolder text-primary"
+                                                               style="font-size: 25px" title="افزودن">+</span> </h6>
                 <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample4">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne4">
