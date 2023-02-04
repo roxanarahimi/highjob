@@ -3,9 +3,9 @@
 <header>
 
 <div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
- <div class="d-flex  px-md-3">
+ <div class="d-flex px-0 px-md-3">
    <NuxtLink class="d-none d-md-block"  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
-   <ul class="d-flex py-3">
+   <ul class="d-flex py-3 px-0">
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
      <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
      <li><NuxtLink to="/resume-maker" >رزومه ساز</NuxtLink></li>
@@ -13,7 +13,7 @@
  </div>
 
  <div class="d-flex justify-content-end">
-   <ul class="pe-2 py-3">
+   <ul class="pe-2 ps-0 py-3">
      <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>
    </ul>
  </div>
