@@ -2,8 +2,8 @@
 <div class="container-fluid px-0 ">
 <header>
 
-<div class="d-md-flex mx-auto justify-content-between" style="max-width: 1000px;" >
- <div class="d-flex  px-3">
+<div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
+ <div class="d-flex  px-md-3">
    <NuxtLink class="d-none d-md-block"  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
    <ul class="d-flex py-3">
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
@@ -12,9 +12,9 @@
    </ul>
  </div>
 
- <div class="px-3">
-   <ul class=" py-3">
-     <li><NuxtLink class="btn btn-primary text-light" to="/login" style="float:left;" >ورود/ ثبت نام</NuxtLink></li>
+ <div class="d-flex justify-content-end">
+   <ul class="pe-2 py-3">
+     <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>
    </ul>
  </div>
 
