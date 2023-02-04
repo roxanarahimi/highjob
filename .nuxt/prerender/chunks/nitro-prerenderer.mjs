@@ -381,7 +381,7 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
-const _lazy_7Ndo3Q = () => import('./renderer.mjs');
+const _lazy_7Ndo3Q = () => import('./renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '/**', handler: _lazy_7Ndo3Q, lazy: true, middleware: false, method: undefined }

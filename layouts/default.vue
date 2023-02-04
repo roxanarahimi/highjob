@@ -37,6 +37,11 @@
 </script>
 
 <style>
+@font-face {
+  font-family: 'IranSans';
+  src: url('../public/fonts/IRANSansWeb/IRANSansWeb.eot?#') format('eot'),  /* IE6–8 */
+  url('../public/fonts/IRANSansWeb/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('../public/fonts/IRANSansWeb/IRANSansWeb.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
 
 body{
   direction: rtl !important;

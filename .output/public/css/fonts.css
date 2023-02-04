@@ -279,9 +279,9 @@
 }
 @font-face {
     font-family: 'IranSans';
-    src: url('../fonts/IRANSansWeb/IRANSansWeb(FaNum).eot?#') format('eot'),  /* IE6–8 */
-    url('../fonts/IRANSansWeb/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/IRANSansWeb/IRANSansWeb(FaNum).ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
+    src: url('../fonts/IRANSansWeb/IRANSansWeb.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSansWeb/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSansWeb/IRANSansWeb.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
 @font-face {
     font-family: 'Vazir';
     src: url('../fonts/vazir-fonts/Vazir.eot?#') format('eot'),  /* IE6–8 */
