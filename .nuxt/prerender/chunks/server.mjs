@@ -565,7 +565,7 @@ const _routes = [
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./index-5f721bd3.mjs').then((m) => m.default || m)
+    component: () => import('./index-cfd13618.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "jobs",
@@ -601,7 +601,7 @@ const _routes = [
     meta: __nuxt_page_meta,
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./resume-b7d21bd0.mjs').then((m) => m.default || m)
+    component: () => import('./resume-92a3bc32.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {

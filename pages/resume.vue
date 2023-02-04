@@ -50,14 +50,14 @@
               <hr class="my-2" style="border: 2px black solid; width: 100%">
 
               <p class="text-center fw-bold mt-3">لینک ها</p>
-                <p>Linkedin</p>
-                <p>website</p>
+                <p class="text-end">Linkedin</p>
+                <p class="text-end">website</p>
 
 
 
               <p class="text-center fw-bold mt-3">سرگرمی ها</p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda expedita itaque</p>
+              <p>کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</p>
 
 
             </div>

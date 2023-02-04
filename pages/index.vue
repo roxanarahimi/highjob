@@ -7,7 +7,7 @@
         <h5 style="font-size: 35px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
       <div class="col-lg-6">
-        <img class="ss" :src="img1" style="max-width: 400px" alt="">
+        <img class="ss" src="../public/images/a.png" style="max-width: 400px" alt="">
       </div>
     </div>
 
@@ -19,21 +19,21 @@
               <form action="">
                 <h5 class="d-inline-block  pb-2 mb-3">جستجو کنید</h5>
                 <div class="row">
-                  <div class="col-lg-10 col-lg-11">
+                  <div class="col-12 col-md-10">
                  <div class="row">
-                   <div class="col-xxl-4 mb-3">
+                   <div class="col-md-4 mb-3">
                      <input type="text" placeholder="عنوان شغلی" class="form-control">
                    </div>
-                   <div class="col-xxl-4 mb-3">
+                   <div class="col-md-4 mb-3">
                      <input type="text" placeholder="گروه شغلی" class="form-control">
                    </div>
-                   <div class="col-xxl-4 mb-3">
+                   <div class="col-md-4 mb-3">
                      <input type="text" placeholder="شهر" class="form-control">
                    </div>
                  </div>
                </div>
-                  <div class="col-2 col-lg-1">
-                    <button class="btn btn-primary">برو</button>
+                  <div class="col-12 col-md-2">
+                    <button class="btn btn-block btn-primary w-100">برو</button>
                   </div>
                 </div>
               </form>
@@ -47,8 +47,8 @@
 </template>
 
 <script setup>
-const img1='https://highjob.webagent.ir/images/a.png';
-</script>
+
+    </script>
 
 <style>
 .txt{

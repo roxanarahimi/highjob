@@ -2,8 +2,20 @@ import { createRenderer } from 'file://F:/PROJECTS/2023/highjob/node_modules/vue
 import { eventHandler, getQuery, createError, appendHeader } from 'file://F:/PROJECTS/2023/highjob/node_modules/h3/dist/index.mjs';
 import { joinURL } from 'file://F:/PROJECTS/2023/highjob/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file://F:/PROJECTS/2023/highjob/node_modules/vue/server-renderer/index.mjs';
-import { u as useRuntimeConfig } from './config.mjs';
+import { b as buildAssetsURL, p as publicAssetsURL } from './paths.mjs';
 import { u as useNitroApp, g as getRouteRules } from './nitro-prerenderer.mjs';
+import { u as useRuntimeConfig } from './config.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/node-fetch-native/dist/polyfill.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/ofetch/dist/node.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/destr/dist/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/hookable/dist/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/ohash/dist/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/unstorage/dist/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/unstorage/dist/drivers/fs.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/defu/dist/defu.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/radix3/dist/index.mjs';
+import 'file://F:/PROJECTS/2023/highjob/node_modules/scule/dist/index.mjs';
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -278,14 +290,6 @@ const appRootId = "__nuxt";
 
 const appRootTag = "div";
 
-function buildAssetsURL(...path) {
-  return joinURL(publicAssetsURL(), useRuntimeConfig().app.buildAssetsDir, ...path);
-}
-function publicAssetsURL(...path) {
-  const publicBase = useRuntimeConfig().app.cdnURL || useRuntimeConfig().app.baseURL;
-  return path.length ? joinURL(publicBase, ...path) : publicBase;
-}
-
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
 const getClientManifest = () => import('./client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
@@ -494,10 +498,5 @@ function splitPayload(ssrContext) {
   };
 }
 
-const renderer$1 = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: renderer
-});
-
-export { buildAssetsURL as b, renderer$1 as r };
+export { renderer as default };
 //# sourceMappingURL=renderer.mjs.map
