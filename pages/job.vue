@@ -87,5 +87,11 @@ p{
 }
 small{
   display: block;
+  margin-bottom: 10px;
+}
+th{
+  font-size: 14px;
+}td{
+  font-size: 13px;
 }
 </style>

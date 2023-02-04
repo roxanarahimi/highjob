@@ -1,12 +1,12 @@
 <template>
 
   <div class="row mt-4 ">
-    <div class="d-flex  mb-3">
+    <div class="d-flex  mb-1">
 <!--      <h6 class="d-inline-block pb-2 ">فرم رزومه</h6>-->
 
       <NuxtLink to="/resume" class="btn btn-primary btn-sm">پیش نمایش</NuxtLink>
     </div>
-    <div class="col-12 mx-auto mb-3 py-3 px-4" style="height: calc(100vh - 180px); overflow-y: scroll; direction: ltr; overflow-x: hidden">
+    <div class="col-12 mx-auto mb-1 py-3 px-4" style="height: calc(100vh - 180px); overflow-y: scroll; direction: ltr; overflow-x: hidden">
       <div class="card border-0 shadow-sm" style="direction: rtl">
         <div class="card-body pb-5">
           <div >
@@ -17,37 +17,37 @@
 
 
 
-                  <div class=" mb-3">
+                  <div class=" mb-1">
 
                     <img src="../public/images/avatar.png" class="border rounded" height="80">
                   </div>
                 <div class="row">
 
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="نام">
                   </div>
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="نام خانوادگی">
                   </div>
 
-                  <div class="col-sm-6 mb-3 ">
+                  <div class="col-sm-6 mb-1 ">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
                   </div>
 
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="موبایل">
                   </div>
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="ایمیل">
                   </div>
 
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="سال تولد">
                   </div>
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="استان">
                   </div>
-                  <div class="col-sm-6 mb-3">
+                  <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="شهر">
                   </div>
 
@@ -55,12 +55,12 @@
                 <h6 class="d-inline-block pb-2 mb-2">درباره من</h6>
                 <div class="row">
                   <div class="col-sm-12">
-                    <textarea class="form-control mb-3" rows="6"></textarea>
+                    <textarea class="form-control mb-1" rows="6"></textarea>
                   </div>
                 </div>
                 <h6 class="d-inline-block pb-2 mb-2">تحصیلات <span class="cursor-pointer px-2 fw-bolder text-primary"
                                                                 style="font-size: 25px" title="افزودن">+</span> </h6>
-                <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample">
+                <div class="accordion rounded mb-1 border accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -73,25 +73,25 @@
                          data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="مکان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="رشته">
                           </div>
 
-                          <div class="col-sm-3 mb-3">
+                          <div class="col-sm-3 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="شروع">
                           </div>
-                          <div class="col-sm-3 mb-3">
+                          <div class="col-sm-3 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="پایان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="شهر">
                           </div>
 
-                          <div class="col-sm-12 mb-3">
-                            <textarea class="form-control mb-3" rows="4"></textarea>
+                          <div class="col-sm-12 mb-1">
+                            <textarea class="form-control mb-1" rows="4"></textarea>
                           </div>
                         </div>
 
@@ -102,7 +102,7 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">مهارت ها<span class="cursor-pointer px-2 fw-bolder text-primary"
                                                                 style="font-size: 25px" title="افزودن">+</span> </h6>
-                <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample1">
+                <div class="accordion rounded mb-1 border accordion-flush" id="accordionFlushExample1">
                   <div class="accordion-item ">
                     <h2 class="accordion-header" id="flush-heading1">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -116,10 +116,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="سطح">
                           </div>
                         </div>
@@ -140,10 +140,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="سطح">
                           </div>
                         </div>
@@ -164,10 +164,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="سطح">
                           </div>
                         </div>
@@ -180,7 +180,7 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">سابقه کار<span class="cursor-pointer px-2 fw-bolder text-primary"
                                                                  style="font-size: 25px" title="افزودن">+</span> </h6>
-                <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample2">
+                <div class="accordion rounded mb-1 border accordion-flush" id="accordionFlushExample2">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne2">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -194,24 +194,24 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="شرکت">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
                           </div>
 
-                          <div class="col-sm-3 mb-3">
+                          <div class="col-sm-3 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="شروع">
                           </div>
-                          <div class="col-sm-3 mb-3">
+                          <div class="col-sm-3 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="پایان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="شهر">
                           </div>
-                          <div class="col-sm-12 mb-3">
-                            <textarea class="form-control mb-3" rows="4"></textarea>
+                          <div class="col-sm-12 mb-1">
+                            <textarea class="form-control mb-1" rows="4"></textarea>
                           </div>
                         </div>
 
@@ -223,7 +223,7 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">زبان ها<span class="cursor-pointer px-2 fw-bolder text-primary"
                                                                style="font-size: 25px" title="افزودن">+</span> </h6>
-                <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample3">
+                <div class="accordion rounded mb-1 border accordion-flush" id="accordionFlushExample3">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingLang1">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -237,10 +237,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="سطح">
                           </div>
                         </div>
@@ -260,10 +260,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="سطح">
                           </div>
                         </div>
@@ -275,7 +275,7 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">لینک ها<span class="cursor-pointer px-2 fw-bolder text-primary"
                                                                style="font-size: 25px" title="افزودن">+</span> </h6>
-                <div class="accordion rounded mb-3 border accordion-flush" id="accordionFlushExample4">
+                <div class="accordion rounded mb-1 border accordion-flush" id="accordionFlushExample4">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne4">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -289,10 +289,10 @@
                       <div class="accordion-body">
 
                         <div class="row  rounded mx-1 p-3">
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان">
                           </div>
-                          <div class="col-sm-6 mb-3">
+                          <div class="col-sm-6 mb-1">
                             <input type="text" name="" class="form-control form-control-sm" placeholder="آدرس">
                           </div>
                         </div>
@@ -306,7 +306,7 @@
 
                 <div class="row">
                   <div class="col-sm-12">
-                    <textarea class="form-control mb-3" rows="4"></textarea>
+                    <textarea class="form-control mb-1" rows="4"></textarea>
                   </div>
                 </div>
 

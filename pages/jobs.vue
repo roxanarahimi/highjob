@@ -40,16 +40,15 @@
       </div>
     </div>
 
-    <div class="row mt-4">
-
-      <div class="col-12 mx-auto" >
-        <div class="card border-0" style="height: calc(100vh - 360px); overflow-y: scroll; direction: ltr">
-          <div class="card-body pb-5" style="direction: rtl">
+    <div class="mt-4">
+      <div class=" mx-auto" >
+        <div class="card border-0" style="height: calc(100vh - 350px); overflow-y: scroll; direction: ltr">
+          <div class="card-body pb-0" style="direction: rtl">
 
             <div class="row">
 
-              <div v-for="item in 10" class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                <nuxt-link to="/job">
+              <div v-for="item in 10" class="col-sm-6 col-md-4 col-lg-3 mb-2">
+                <nuxt-link to="/job" class="p-0 m-0">
                   <div class="card border-0 shadow-sm" style="">
                     <div class="card-body">
                       <div class="row">

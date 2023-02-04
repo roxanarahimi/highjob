@@ -575,7 +575,7 @@ const _routes = [
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./job-aae757f4.mjs').then((m) => m.default || m)
+    component: () => import('./job-3126a919.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "jobs",
@@ -584,7 +584,7 @@ const _routes = [
     meta: __nuxt_page_meta$3,
     alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
     redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import('./jobs-e9bffa7e.mjs').then((m) => m.default || m)
+    component: () => import('./jobs-3a54dbe6.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "login",
@@ -602,7 +602,7 @@ const _routes = [
     meta: __nuxt_page_meta$1,
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./resume-maker-6b9bd8c4.mjs').then((m) => m.default || m)
+    component: () => import('./resume-maker-8fd76137.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "resume",
