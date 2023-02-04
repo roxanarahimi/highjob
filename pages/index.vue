@@ -19,20 +19,20 @@
               <form action="">
                 <h5 class="d-inline-block  pb-2 mb-3">جستجو کنید</h5>
                 <div class="row">
-                  <div class="col-12 col-md-10">
+                  <div class="col-12 col-sm-10">
                  <div class="row">
-                   <div class="col-md-4 mb-3">
+                   <div class="col-sm-4 mb-3">
                      <input type="text" placeholder="عنوان شغلی" class="form-control">
                    </div>
-                   <div class="col-md-4 mb-3">
+                   <div class="col-sm-4 mb-3">
                      <input type="text" placeholder="گروه شغلی" class="form-control">
                    </div>
-                   <div class="col-md-4 mb-3">
+                   <div class="col-sm-4 mb-3">
                      <input type="text" placeholder="شهر" class="form-control">
                    </div>
                  </div>
                </div>
-                  <div class="col-12 col-md-2">
+                  <div class="col-12 col-sm-2">
                     <button class="btn btn-block btn-primary w-100">برو</button>
                   </div>
                 </div>
@@ -65,7 +65,7 @@
     font-size: 30px !important;
   }
    .ss{
-     max-width: 250px !important;
+     max-width: 210px !important;
    }
 }
 </style>

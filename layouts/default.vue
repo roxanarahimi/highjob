@@ -13,9 +13,26 @@
  </div>
 
  <div class="d-flex justify-content-end">
-   <ul class="pe-2 ps-0 py-3">
-     <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>
-   </ul>
+<!--   <ul class="pe-2 ps-0 py-3">-->
+<!--     <li><NuxtLink class="btn btn-primary text-light" to="/login" >ورود/ ثبت نام</NuxtLink></li>-->
+<!--   </ul>-->
+   <!-- Example single danger button -->
+
+
+   <div>
+     <div class="btn-group pe-2">
+       <button type="button" class="btn btn-primary mt-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+         رکسانا رحیمی
+       </button>
+       <ul class="dropdown-menu">
+         <li><NuxtLink to="/resume-maker" class="dropdown-item" href="#">رزومه ساز</NuxtLink></li>
+         <li><NuxtLink to="/resume" class="dropdown-item" href="#">رزومه من</NuxtLink></li>
+         <li><NuxtLink to="/requests" class="dropdown-item" href="#">درخواست های ارسال شده</NuxtLink></li>
+         <li><hr class="dropdown-divider"></li>
+         <li><a class="dropdown-item" href="#">خروج</a></li>
+       </ul>
+     </div>
+   </div>
  </div>
 
 
@@ -110,7 +127,7 @@ body{
   color: #ff6262 !important;
 
 }
-.col-6, .col-3, .col-4, .col-xxl-4,
+.col-6, .col-3, .col-4, .col-xxl-4,.col-sm-4, .col-sm-2,
 .col-sm-6,
 .col-lg-3{
   padding: 5px !important;
@@ -146,5 +163,8 @@ box-shadow:none !important;
 }
 .accordion-body{
   padding: 0px !important;
+}
+.dropdown-item:focus{
+  background-color: whitesmoke !important;
 }
 </style>

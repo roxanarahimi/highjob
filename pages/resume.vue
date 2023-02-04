@@ -69,7 +69,9 @@
                 <div CLASS="d-flex" style="margin-top: -17px">
                   <div style="margin-right: 1px; width: 8px;height: 8px; border-color: black"
                        class="border border-2 border-dark rounded mt-3 rounded-circle"></div>
-                  <p class="my-1 ms-2"><b>&nbsp</b></p>
+
+                  <p style="margin-top: 20px" class="my-1 ms-2 section-title">&nbsp</p>
+
                 </div>
                 <div class="border-dark border-2 ms-1 ps-3 pb-3 border-start pt-3" style="margin-top: -11px">
                   <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>

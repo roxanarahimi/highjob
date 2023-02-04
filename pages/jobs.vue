@@ -43,24 +43,36 @@
     <div class="row mt-4">
 
       <div class="col-12 mx-auto" >
-        <div class="card border-0" style="height: calc(100vh - 300px); overflow-y: scroll; direction: ltr">
+        <div class="card border-0" style="height: calc(100vh - 360px); overflow-y: scroll; direction: ltr">
           <div class="card-body pb-5" style="direction: rtl">
 
             <div class="row">
 
               <div v-for="item in 10" class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div class="card border-0 shadow-sm" style="">
-                  <div class="card-body">
-                    <img src="../public/images/b.jpg" class="rounded img-fluid" alt="">
-                    <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
-                    <small class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</small>
-                    <div class="d-flex justify-content-between">
-                      <small class="fw-lighter mt-1 mb-2">تهران</small>
-                      <small class="fw-lighter mt-1 mb-3">دور کاری</small>
+                <nuxt-link to="/job">
+                  <div class="card border-0 shadow-sm" style="">
+                    <div class="card-body">
+                      <div class="row">
+
+                        <div class="col-3 col-sm-12">
+                          <img src="../public/images/b.jpg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-9 col-sm-12">
+                          <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
+                          <small class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</small>
+                          <div class="d-flex justify-content-between">
+                            <small class="fw-lighter mt-1 mb-2">تهران</small>
+                            <small class="fw-lighter mt-1 mb-2">دور کاری</small>
+                          </div>
+                          <small class="fw-lighter mt-1 mb-2">حقوق توافقی</small>
+
+                        </div>
+                      </div>
+                      <!--                    <button class="btn btn-primary" style="float: left !important">ارسال رزومه</button>-->
                     </div>
-                    <!--                    <button class="btn btn-primary" style="float: left !important">ارسال رزومه</button>-->
                   </div>
-                </div>
+
+                </nuxt-link>
               </div>
             </div>
           </div>
