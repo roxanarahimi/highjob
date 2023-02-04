@@ -17,15 +17,10 @@
 
 
 
-                <div class="row">
-                  <div class="col-sm-6 mb-3">
+                  <div class=" mb-3">
 
-                    <img src="https://highjob.webagent.ir/images/b.jpg" class="border rounded" height="80">
+                    <img src="../public/images/avatar.png" class="border rounded" height="80">
                   </div>
-                  <div class="col-sm-6 mb-3" style="padding-top: 50px  ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
-                  </div>
-                </div>
                 <div class="row">
 
                   <div class="col-sm-6 mb-3">
@@ -33,6 +28,10 @@
                   </div>
                   <div class="col-sm-6 mb-3">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="نام خانوادگی">
+                  </div>
+
+                  <div class="col-sm-6 mb-3 ">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
                   </div>
 
                   <div class="col-sm-6 mb-3">
@@ -44,6 +43,9 @@
 
                   <div class="col-sm-6 mb-3">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="سال تولد">
+                  </div>
+                  <div class="col-sm-6 mb-3">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="استان">
                   </div>
                   <div class="col-sm-6 mb-3">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="شهر">

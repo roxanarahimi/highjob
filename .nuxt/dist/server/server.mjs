@@ -572,7 +572,7 @@ const _routes = [
     meta: __nuxt_page_meta$3,
     alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
     redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import("./_nuxt/jobs-49d38520.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/jobs-ecadc20d.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "login",
@@ -590,7 +590,7 @@ const _routes = [
     meta: __nuxt_page_meta$1,
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import("./_nuxt/resume-maker-64b660f1.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/resume-maker-6b9bd8c4.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "resume",
