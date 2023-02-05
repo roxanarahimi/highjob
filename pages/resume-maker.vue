@@ -30,9 +30,21 @@
                     <input type="text" name="" class="form-control form-control-sm" placeholder="نام خانوادگی">
                   </div>
 
+
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="جنسیت">
                   </div>
+                  <div class="col-sm-6 mb-1">
+                  <input type="text" name="" class="form-control form-control-sm" placeholder="سال تولد">
+                </div>
+                    <div class="col-sm-6 mb-1 ">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="سربازی">
+                  </div>
+                    <div class="col-sm-6 mb-1 ">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="تاهل">
+                  </div>
+
+
 
                   <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="موبایل">
@@ -40,10 +52,14 @@
                   <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="ایمیل">
                   </div>
-
-                  <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="سال تولد">
+                  <div class="col-sm-6 mb-1 ">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="عنوان شغلی">
                   </div>
+                  <div class="col-sm-6 mb-1 ">
+                    <input type="text" name="" class="form-control form-control-sm" placeholder="حقوق درخواستی">
+                  </div>
+
+
                   <div class="col-sm-6 mb-1">
                     <input type="text" name="" class="form-control form-control-sm" placeholder="استان">
                   </div>

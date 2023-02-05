@@ -5,7 +5,16 @@
     <div class="col-lg-6 mx-auto" style="margin-top: 150px" >
       <div class="card border-0 shadow"  >
         <div class="card-body pb-5">
-          <h6 class="d-inline-block pb-2 mb-2">ورود به سایت</h6>
+            <h6 class="d-inline-block pb-2 mb-2">ورود به سایت</h6>
+          <div class="row d-flex justify-content-start" style="padding-right: 11px; padding-left: 11px">
+            <div class="col-6">
+              <button class="w-100 btn btn-sm btn-primary me-2 mb-2">کارجو</button>
+            </div>
+             <div class="col-6">
+               <button class="w-100 btn btn-sm btn-outline-primary me-2 mb-2">کارفرما</button>
+            </div>
+
+          </div>
 
           <div class="d-flex justify-content-between">
             <input type="text"  class="form-control form-control-sm mx-1 mb-3" placeholder="موبایل" >

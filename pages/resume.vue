@@ -24,10 +24,11 @@
           </div>
           <div class="row">
             <div class="col-md-3 pe-4">
-              <p><b>رکسانا رحیمی</b></p>
+              <p class="mb-0"><small>خانم، مجرد، توسعه دهنده وب</small></p>
+              <p class="mb-0"><small>متولد 70/10/26 تهران، تهران</small></p>
               <p class="mb-0"><small>09128222725</small></p>
               <p class="mb-0"><small>ms.roxanarahimi@gmail.com</small></p>
-              <p class="mb-0"><small>متولد 70/10/26 تهران، تهران</small></p>
+              <p class="mb-0"><small>حقوق درخواستی 15-20</small></p>
 
 
               <p class="text-center fw-bold mt-3">مهارت ها</p>

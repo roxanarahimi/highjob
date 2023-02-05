@@ -9,6 +9,7 @@
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
      <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
      <li><NuxtLink to="/resume-maker" >رزومه ساز</NuxtLink></li>
+     <li><NuxtLink to="/resume-maker" >مطالب</NuxtLink></li>
    </ul>
  </div>
 
@@ -21,7 +22,7 @@
 
    <div>
      <div class="btn-group pe-2">
-       <button type="button" class="btn btn-primary mt-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+       <button type="button" class="btn btn-primary btn-sm mt-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
          رکسانا رحیمی
        </button>
        <ul class="dropdown-menu">
@@ -127,7 +128,7 @@ body{
   color: #ff6262 !important;
 
 }
-.col-6, .col-3, .col-4, .col-xxl-4,.col-sm-4, .col-sm-2,
+.col-6, .col-3, .col-4, .col-xxl-4,.col-sm-4, .col-sm-2, .col-sm-3, .col-sm-12,
 .col-sm-6,
 .col-lg-3{
   padding: 5px !important;
@@ -152,7 +153,8 @@ input, textarea , select{
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus,
-button:focus, button:active:focus, button.active:focus
+button:focus, button:active:focus, button.active:focus,
+input:focus,select:focus
 
 {
   outline:none !important;

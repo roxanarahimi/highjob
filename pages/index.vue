@@ -22,18 +22,18 @@
                   <div class="col-12 col-sm-10">
                  <div class="row">
                    <div class="col-sm-4 mb-3">
-                     <input type="text" placeholder="عنوان شغلی" class="form-control">
+                     <input type="text" placeholder="عنوان شغلی" class="form-control form-control-sm">
                    </div>
                    <div class="col-sm-4 mb-3">
-                     <input type="text" placeholder="گروه شغلی" class="form-control">
+                     <input type="text" placeholder="گروه شغلی" class="form-control form-control-sm">
                    </div>
                    <div class="col-sm-4 mb-3">
-                     <input type="text" placeholder="شهر" class="form-control">
+                     <input type="text" placeholder="شهر" class="form-control form-control-sm">
                    </div>
                  </div>
                </div>
                   <div class="col-12 col-sm-2">
-                    <button class="btn btn-block btn-primary w-100">برو</button>
+                    <button class="btn btn-sm btn-block btn-primary w-100">برو</button>
                   </div>
                 </div>
               </form>
