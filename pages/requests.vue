@@ -11,17 +11,18 @@
 
                 <h6 class="d-inline-block pb-2 mb-2">جستجوی پیشرفته</h6>
                 <div class="row">
-                  <div class="col-6 col-lg-4 mb-2">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="عنوان شغلی" class="form-control form-control-sm">
                   </div>
-                  <div class="col-6 col-lg-4 mb-2">
+                  <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="گروه شغلی" class="form-control form-control-sm">
                   </div>
-
-                  <div class="col-6 col-lg-4 mb-2">
-                    <input type="text" placeholder="تاریخ درخواست" class="form-control form-control-sm">
+                  <div class="col-6 col-lg-3 mb-2">
+                    <input type="text" placeholder="شهر" class="form-control form-control-sm">
                   </div>
-
+                  <div class="col-6 col-lg-3 mb-2">
+                    <input type="text" placeholder="مرتب سازی" class="form-control form-control-sm">
+                  </div>
                 </div>
               </form>
             </div>
@@ -46,7 +47,7 @@
 
             <div class="row">
 
-              <div v-for="item in 10" class="col-12 mb-2">
+              <div v-for="item in 10" class="col-sm-12 col-md-12 col-lg-12 mb-2">
                 <nuxt-link to="/job" class="p-0 m-0">
                   <div class="card border-0 shadow-sm" style="">
                     <div class="card-body">
@@ -55,13 +56,13 @@
                         <div class="col-2">
                           <img src="../public/images/b.jpg" class="rounded img-fluid" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-8">
                           <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
                           <small class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</small>
                           <div class="d-flex justify-content-between">
                             <small class="fw-lighter mt-1 mb-2">تهران</small>
+                            <small class="fw-lighter mt-1 mb-2">حقوق از 25.000.000</small>
                             <small class="fw-lighter mt-1 mb-2">دور کاری</small>
-                            <small class="fw-lighter mt-1 mb-2">حقوق توافقی</small>
                           </div>
 
                         </div>
@@ -86,5 +87,8 @@
 </script>
 
 <style>
+/*input{*/
+/*  border: none;*/
+/*}*/
 
 </style>

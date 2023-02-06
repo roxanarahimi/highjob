@@ -1,6 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default {
+    // modules: [
+    //     '@nuxtjs/axios'
+    // ],
+
+    // axios: {
+    //     // proxy: true,
+    //     // baseURL: 'http://localhost:4000', // Used as fallback if no runtime config is provided
+    // },
+
     target: 'static',
 
     ssr: true,
@@ -9,9 +18,9 @@ export default {
         fallback: '404.html',
     },
 
-    publicRuntimeConfig: {
-        baseURL: 'https://highjob.webagent.ir'
-    },
+    // publicRuntimeConfig: {
+    //     baseURL: 'https://highjob.webagent.ir'
+    // },
     analyze: {
         analyzerMode: 'static'
     },

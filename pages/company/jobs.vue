@@ -54,7 +54,7 @@
                       <div class="row">
 
                         <div class="col-2">
-                          <img src="../public/images/b.jpg" class="rounded img-fluid" alt="">
+                          <img src="../../public/images/b.jpg" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-8">
                           <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>

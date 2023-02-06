@@ -2,14 +2,14 @@
 <div class="container-fluid px-0 ">
 <header>
 
-<div class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
+<nav class="d-flex mx-auto justify-content-between" style="max-width: 1000px;" >
  <div class="d-flex px-0 px-md-3">
    <NuxtLink class="d-none d-md-block"  to="/" ><h1 style="color: black !important;">HighJob</h1></NuxtLink>
    <ul class="d-flex py-3 px-0">
      <li><NuxtLink to="/" >خانه</NuxtLink></li>
      <li><NuxtLink to="/jobs" >جستوجوی مشاغل</NuxtLink></li>
-     <li><NuxtLink to="/resume-maker" >رزومه ساز</NuxtLink></li>
-     <li><NuxtLink to="/resume-maker" >مطالب</NuxtLink></li>
+     <li class=""><NuxtLink to="/resume-maker" >رزومه ساز</NuxtLink></li>
+     <li><NuxtLink to="/articles" >مطالب</NuxtLink></li>
    </ul>
  </div>
 
@@ -23,9 +23,16 @@
    <div>
      <div class="btn-group pe-2">
        <button type="button" class="btn btn-primary btn-sm mt-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-         رکسانا رحیمی
+         <span class="bi bi-person-fill mx-1"></span>
+         <span class="d-none d-sm-inline-block">رکسانا رحیمی</span>
        </button>
        <ul class="dropdown-menu">
+         <li class="d-sm-none"><p class="fw-bold px-3 mb-2" href="#">رکسانا رحیمی</p></li>
+         <li><NuxtLink to="/company/profile" class="dropdown-item" href="#">پروفایل</NuxtLink></li>
+         <li><NuxtLink to="/company/new/job" class="dropdown-item" href="#">ایجاد فرصت شغلی</NuxtLink></li>
+         <li><NuxtLink to="/company/jobs" class="dropdown-item" href="#">فرصت های شغلی من</NuxtLink></li>
+         <li><NuxtLink to="/company/resumes" class="dropdown-item" href="#">رزومه های دریافتی</NuxtLink></li>
+         <li><hr class="dropdown-divider"></li>
          <li><NuxtLink to="/resume-maker" class="dropdown-item" href="#">رزومه ساز</NuxtLink></li>
          <li><NuxtLink to="/resume" class="dropdown-item" href="#">رزومه من</NuxtLink></li>
          <li><NuxtLink to="/requests" class="dropdown-item" href="#">درخواست های ارسال شده</NuxtLink></li>
@@ -36,11 +43,7 @@
    </div>
  </div>
 
-
-
-
-
-</div>
+</nav>
 </header>
 
 <div class="clearfix"></div>
@@ -144,6 +147,12 @@ ul li a, a{
   font-weight: 500;
   padding-right: 10px;
   padding-left: 10px;
+
+}
+@media(max-width: 792px) {
+ nav div ul li a,nav div .btn-sm{
+    font-size: 13px !important;
+  }
 }
 input, textarea , select{
   /*border: none;*/
@@ -154,7 +163,7 @@ input, textarea , select{
 
 .btn:focus, .btn:active:focus, .btn.active:focus,
 button:focus, button:active:focus, button.active:focus,
-input:focus,select:focus
+input:focus,select:focus, textarea:focus
 
 {
   outline:none !important;
@@ -169,4 +178,5 @@ box-shadow:none !important;
 .dropdown-item:focus{
   background-color: whitesmoke !important;
 }
+
 </style>
