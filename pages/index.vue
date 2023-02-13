@@ -72,7 +72,6 @@ export default {
   text-align: right !important;
 }
 @media (max-width: 572px) {
-  .txt { padding-top: 250px; }
   .txt h1{
     font-size: 75px !important;
   }.txt h3{
@@ -80,10 +79,10 @@ export default {
   }.txt h5{
     font-size: 30px !important;
   }
-   .ss{
-     max-width: 210px !important;
-     padding-top: 250px !important;
-
+  .txt { padding-top: 250px !important; }
+  .ss{
+    padding-top: 250px !important;
+    max-width: 210px !important;
    }
 }
 </style>
