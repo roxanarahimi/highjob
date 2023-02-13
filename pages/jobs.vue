@@ -18,11 +18,12 @@
                     <input type="text" placeholder="گروه شغلی" class="form-control form-control-sm">
                   </div>
                   <div class="col-6 col-lg-3 mb-2">
+                    <input type="text" placeholder="استان" class="form-control form-control-sm">
+                  </div>
+                <div class="col-6 col-lg-3 mb-2">
                     <input type="text" placeholder="شهر" class="form-control form-control-sm">
                   </div>
-                  <div class="col-6 col-lg-3 mb-2">
-                    <input type="text" placeholder="مرتب سازی" class="form-control form-control-sm">
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -53,10 +54,10 @@
                     <div class="card-body">
                       <div class="row">
 
-                        <div class="col-2">
+                        <div class="col-1">
                           <img src="../public/images/b.jpg" class="rounded img-fluid" alt="">
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                           <p class="fw-bold text-primary mt-3 mb-1">طراح سایت</p>
                           <small class="fw-lighter mt-1 mb-2">گروه تخصصی مشاوران وب</small>
                           <div class="d-flex justify-content-between">

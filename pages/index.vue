@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="row flex-row-reverse">
-      <div class="col-lg-6 txt" >
+      <div class="col-6 txt" >
         <h1 style="font-size: 100px;text-align: left !important">شغل</h1>
         <h3 style="font-size: 60px;text-align: left !important">رویاهاتو </h3>
         <h5 style="font-size: 35px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
-      <div class="col-lg-6">
+      <div class="col-6">
         <img class="ss" src="../public/images/a.png" style="max-width: 400px" alt="">
       </div>
     </div>
@@ -19,21 +19,24 @@
               <form action="">
                 <h5 class="d-inline-block  pb-2 mb-3">جستجو کنید</h5>
                 <div class="row">
-                  <div class="col-12 col-sm-10">
+                  <div class="col-12 col-md-10">
                  <div class="row">
-                   <div class="col-sm-4 mb-2">
-                     <input type="text" placeholder="عنوان شغلی" class="form-control form-control-sm">
+                   <div class="col-sm-6 col-md-3 mb-2">
+                     <input type="text" v-model="title" placeholder="عنوان شغلی" class="form-control form-control-sm">
                    </div>
-                   <div class="col-sm-4 mb-2">
-                     <input type="text" placeholder="گروه شغلی" class="form-control form-control-sm">
+                   <div class="col-sm-6 col-md-3 mb-2">
+                     <input type="text" v-model="category" placeholder="گروه شغلی" class="form-control form-control-sm">
                    </div>
-                   <div class="col-sm-4 mb-2">
-                     <input type="text" placeholder="شهر" class="form-control form-control-sm">
+                   <div class="col-sm-6 col-md-3 mb-2">
+                     <input type="text" v-model="state" placeholder="استان" class="form-control form-control-sm">
+                   </div>
+                   <div class="col-sm-6 col-md-3 mb-2">
+                     <input type="text" v-model="city" placeholder="شهر" class="form-control form-control-sm">
                    </div>
                  </div>
                </div>
-                  <div class="col-12 col-sm-2">
-                    <button class="btn btn-sm btn-block btn-primary w-100">برو</button>
+                  <div class="col-12 col-md-2">
+                    <router-link :to="{path:'/jobs', props:{ title: title, category: category, state: state, city: city}}"  class="btn btn-sm w-100 mt-1  btn-primary ">برو</router-link>
                   </div>
                 </div>
               </form>
@@ -46,16 +49,29 @@
 
 </template>
 
-<script setup>
+<script >
+import Def from '../layouts/default'
+export default {
+  data(){
+    return {
+      title:'',
+      category:'',
+      state:'',
+      city:'',
+    }
+  },
+  mounted() {
+  }
 
+}
     </script>
 
 <style>
 .txt{
-  padding-top: 150px;
+  padding-top: 150px !important;
   text-align: right !important;
 }
-@media (max-width: 992px) {
+@media (max-width: 572px) {
   .txt { padding-top: 0px; }
   .txt h1{
     font-size: 75px !important;

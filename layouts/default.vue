@@ -27,15 +27,15 @@
          <span class="d-none d-sm-inline-block">رکسانا رحیمی</span>
        </button>
        <ul class="dropdown-menu">
-         <li class="d-sm-none"><p class="fw-bold px-3 mb-2" href="#">رکسانا رحیمی</p></li>
-         <li><NuxtLink to="/company/profile" class="dropdown-item" href="#">پروفایل</NuxtLink></li>
-         <li><NuxtLink to="/company/new/job" class="dropdown-item" href="#">ایجاد فرصت شغلی</NuxtLink></li>
-         <li><NuxtLink to="/company/jobs" class="dropdown-item" href="#">فرصت های شغلی من</NuxtLink></li>
-         <li><NuxtLink to="/company/resumes" class="dropdown-item" href="#">رزومه های دریافتی</NuxtLink></li>
-         <li><hr class="dropdown-divider"></li>
-         <li><NuxtLink to="/resume-maker" class="dropdown-item" href="#">رزومه ساز</NuxtLink></li>
-         <li><NuxtLink to="/resume" class="dropdown-item" href="#">رزومه من</NuxtLink></li>
-         <li><NuxtLink to="/requests" class="dropdown-item" href="#">درخواست های ارسال شده</NuxtLink></li>
+         <li v-if="scope === 'company'"  class="d-sm-none"><p class="fw-bold px-3 mb-2" href="#">رکسانا رحیمی</p></li>
+         <li v-if="scope === 'company'" ><NuxtLink to="/company/profile" class="dropdown-item" href="#">پروفایل</NuxtLink></li>
+         <li v-if="scope === 'company'" ><NuxtLink to="/company/new/job" class="dropdown-item" href="#">ایجاد فرصت شغلی</NuxtLink></li>
+         <li v-if="scope === 'company'" ><NuxtLink to="/company/jobs" class="dropdown-item" href="#">فرصت های شغلی من</NuxtLink></li>
+         <li v-if="scope === 'company'" ><NuxtLink to="/company/resumes" class="dropdown-item" href="#">رزومه های دریافتی</NuxtLink></li>
+
+         <li v-if="scope === 'user'" ><NuxtLink to="/resume-maker" class="dropdown-item" href="#">رزومه ساز</NuxtLink></li>
+         <li v-if="scope === 'user'"><NuxtLink to="/resume" class="dropdown-item" href="#">رزومه من</NuxtLink></li>
+         <li v-if="scope === 'user'"><NuxtLink to="/requests" class="dropdown-item" href="#">درخواست های ارسال شده</NuxtLink></li>
          <li><hr class="dropdown-divider"></li>
          <li><a class="dropdown-item" href="#">خروج</a></li>
        </ul>
@@ -53,8 +53,42 @@
 </div>
 </template>
 
-<script setup>
+<script>
+import {onMounted, ref} from 'vue';
+import {onBeforeRouteUpdate} from "nuxt/app";
+export default {
+  setup(){
+    const user = ref({})
+    const token = ref('')
+    const scope = ref('')
+    const expire = ref('')
 
+    onMounted(()=>{
+      console.log(localStorage)
+      user.value = JSON.parse(localStorage.getItem('user'));
+      token.value = JSON.parse(localStorage.getItem('token'));
+      scope.value = JSON.parse(localStorage.getItem('scope'));
+      expire.value = JSON.parse(localStorage.getItem('expire'));
+
+      console.log(scope.value)
+      console.log('aa',user.value)
+
+    })
+
+
+    return{
+      user,token,scope,expire,
+    }
+  },
+  updated() {
+
+    console.log('aa',this.user)
+  },
+  mounted() {
+
+    console.log('aa',this.user)
+  }
+}
 </script>
 
 <style>
@@ -127,11 +161,11 @@ body{
 .text-primary{
   color: #ff6262 !important;
 }
-.router-link-active:not(.btn-primary), .router-link-exact-active:not(.btn-primary), a:hover{
+.router-link-active:not(.btn-primary), .router-link-exact-active:not(.btn-primary), a:hover , .btn:disabled{
   color: #ff6262 !important;
 
 }
-.col-6, .col-3, .col-4, .col-xxl-4,.col-sm-4, .col-sm-2, .col-sm-3, .col-sm-12,
+.col-6, .col-3, .col-4, .col-xxl-4,.col-sm-4, .col-sm-2, .col-sm-3, .col-sm-12,.col-sm-2,.col-md-2,
 .col-sm-6,
 .col-lg-3{
   padding: 5px !important;

@@ -1,11 +1,6 @@
 <template>
 
   <div class="row mt-4 ">
-    <div class="d-flex  mb-1">
-      <!--      <h6 class="d-inline-block pb-2 ">فرم رزومه</h6>-->
-
-      <NuxtLink to="/resume" class="btn btn-primary btn-sm">پیش نمایش</NuxtLink>
-    </div>
     <div class="col-12 mx-auto mb-1 py-3 px-4"
          style="height: calc(100vh - 180px); overflow-y: scroll; direction: ltr; overflow-x: hidden">
       <div class="card border-0 shadow-sm" style="direction: rtl">
@@ -24,16 +19,16 @@
                 <div class="row">
 
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="نام">
+                    <input type="text" :value="user.name" class="form-control form-control-sm" placeholder="نام">
                   </div>
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="نام خانوادگی">
+                    <input type="text" :value="user.last_name" class="form-control form-control-sm" placeholder="نام خانوادگی">
                   </div>
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="موبایل">
+                    <input type="text" :value="user.mobile" class="form-control form-control-sm" placeholder="موبایل">
                   </div>
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="ایمیل">
+                    <input type="text" :value="user.email" class="form-control form-control-sm" placeholder="ایمیل">
                   </div>
 
 
@@ -42,30 +37,34 @@
                     <img src="../../public/images/b.jpg" class="border rounded" height="80">
                   </div>
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="نام شرکت">
+                    <input type="text" :value="user.company.title" class="form-control form-control-sm" placeholder="نام شرکت">
                   </div>
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="شماره ثبت">
+                    <input type="text" :value="user.company.id_number" class="form-control form-control-sm" placeholder="شماره ثبت">
                   </div>
 
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="نام مدیر">
+                    <input type="text" :value="user.company.manager" class="form-control form-control-sm" placeholder="نام مدیر">
+                  </div>
+
+                  <div class="col-sm-6 mb-1 ">
+                    <input type="text" :value="user.company.manager_mobile" class="form-control form-control-sm" placeholder="موبایل مدیر">
                   </div>
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="تلفن">
+<!--                    <input type="text" :value="user.company.telephone" class="form-control form-control-sm" placeholder="تلفن">-->
                   </div>
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="ایمیل">
+                    <input type="text" :value="user.company.email" class="form-control form-control-sm" placeholder="ایمیل">
                   </div>
                   <div class="col-sm-6 mb-1 ">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="ادرس">
+                    <input type="text" :value="user.company.address" class="form-control form-control-sm" placeholder="ادرس">
                   </div>
 
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="استان">
+                    <input type="text" :value="user.company.city.state" class="form-control form-control-sm" placeholder="استان">
                   </div>
                   <div class="col-sm-6 mb-1">
-                    <input type="text" name="" class="form-control form-control-sm" placeholder="شهر">
+                    <input type="text" :value="user.company.city" class="form-control form-control-sm" placeholder="شهر">
                   </div>
 
                 </div>
@@ -88,7 +87,17 @@
 </template>
 
 <script>
-
+export default {
+  data(){
+    return {
+      user: JSON.parse(localStorage.getItem('user'))
+    }
+  },
+  mounted() {
+    console.log(this.user)
+    console.log(localStorage)
+  }
+}
 </script>
 
 <style>

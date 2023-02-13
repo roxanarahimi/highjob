@@ -46,10 +46,10 @@
                     <div class="card-body">
                       <div class="row">
 
-                        <div class="col-2">
+                        <div class="col-1">
                           <img src="../../public/images/avatar.png" class="rounded img-fluid" alt="">
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                           <p class="fw-bold text-primary mt-3 mb-1">رکسانا رحیمی</p>
                           <small class="fw-lighter mt-1 mb-2">توسعه دهنده وب</small>
                           <small class="fw-lighter mt-1 mb-2">برای اگهی توسعه دهنده وب</small>
