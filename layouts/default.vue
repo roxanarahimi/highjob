@@ -47,7 +47,7 @@
 </header>
 
 <div class="clearfix"></div>
-  <div class="mx-auto px-2 px-xl-2" style="max-width: 1000px;">
+  <div class="mx-auto px-3 px-xl-2" style="max-width: 1000px;">
     <slot />
   </div>
 </div>

@@ -72,7 +72,7 @@ export default {
   text-align: right !important;
 }
 @media (max-width: 572px) {
-  .txt { padding-top: 0px; }
+  .txt { padding-top: 250px; }
   .txt h1{
     font-size: 75px !important;
   }.txt h3{
@@ -82,6 +82,8 @@ export default {
   }
    .ss{
      max-width: 210px !important;
+     padding-top: 250px !important;
+
    }
 }
 </style>
