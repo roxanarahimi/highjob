@@ -51,7 +51,7 @@
                     <input type="text" :value="user.company.manager_mobile" class="form-control form-control-sm" placeholder="موبایل مدیر">
                   </div>
                   <div class="col-sm-6 mb-1 ">
-<!--                    <input type="text" :value="user.company.telephone" class="form-control form-control-sm" placeholder="تلفن">-->
+                    <input type="text" :value="user.company.telephone" class="form-control form-control-sm" placeholder="تلفن">
                   </div>
                   <div class="col-sm-6 mb-1 ">
                     <input type="text" :value="user.company.email" class="form-control form-control-sm" placeholder="ایمیل">
@@ -60,12 +60,12 @@
                     <input type="text" :value="user.company.address" class="form-control form-control-sm" placeholder="ادرس">
                   </div>
 
-                  <div class="col-sm-6 mb-1">
-                    <input type="text" :value="user.company.city.state" class="form-control form-control-sm" placeholder="استان">
-                  </div>
-                  <div class="col-sm-6 mb-1">
-                    <input type="text" :value="user.company.city" class="form-control form-control-sm" placeholder="شهر">
-                  </div>
+<!--                  <div class="col-sm-6 mb-1">-->
+<!--                    <input type="text" :value="user.company.city.state" class="form-control form-control-sm" placeholder="استان">-->
+<!--                  </div>-->
+<!--                  <div class="col-sm-6 mb-1">-->
+<!--                    <input type="text" :value="user.company.city" class="form-control form-control-sm" placeholder="شهر">-->
+<!--                  </div>-->
 
                 </div>
                 <h6 class="d-inline-block pb-2 mb-2">درباره شرکت</h6>
