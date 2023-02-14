@@ -67,7 +67,11 @@ export default {
     </script>
 
 <style>
-
+.txt {
+  text-align: right !important;
+  display: grid !important;
+  align-self: end !important;
+}
 @media (max-width: 576px) {
 
   .txt h1{
@@ -86,10 +90,7 @@ export default {
 }
 
 /*@media (min-width: 577px) {*/
-  .txt {
-    padding-top: 150px !important;
-    text-align: right !important;
-  }
+
 /*}*/
 
 </style>
