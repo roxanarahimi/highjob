@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="row flex-row-reverse">
-      <div class="col-6 txt" >
+      <div class="col-sm-6 txt" >
         <h1 style="font-size: 100px;text-align: left !important">شغل</h1>
         <h3 style="font-size: 60px;text-align: left !important">رویاهاتو </h3>
         <h5 style="font-size: 35px;text-align: left !important">اینجا پیدا کن </h5>
       </div>
-      <div class="col-6">
+      <div class="col-sm-6">
         <img class="ss" src="../public/images/a.png" style="max-width: 400px" alt="">
       </div>
     </div>
@@ -73,15 +73,17 @@ export default {
 }
 @media (max-width: 572px) {
   .txt h1{
-    font-size: 75px !important;
-  }.txt h3{
-    font-size: 45px !important;
-  }.txt h5{
-    font-size: 30px !important;
+    font-size: 60px !important;
   }
-  .txt { padding-top: 250px !important; }
+  .txt h3{
+    font-size: 35px !important;
+  }
+  .txt h5{
+    font-size: 22px !important;
+  }
+  .txt { padding-top: 0px !important; }
   .ss{
-    padding-top: 250px !important;
+    padding-top: 0px !important;
     max-width: 210px !important;
    }
 }
