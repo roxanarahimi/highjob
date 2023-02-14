@@ -35,25 +35,20 @@
     "file": "IRANSansWeb.71670e29.ttf",
     "src": "public/fonts/IRANSansWeb/IRANSansWeb.ttf"
   },
-  "pages/company/new/job.css": {
+  "pages/job.css": {
     "resourceType": "style",
-    "file": "profile.e18dd131.css",
-    "src": "pages/company/new/job.css"
-  },
-  "pages/article.css": {
-    "resourceType": "style",
-    "file": "job.2169d2e4.css",
-    "src": "pages/article.css"
-  },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.40cb2333.css",
-    "src": "pages/index.css"
+    "file": "article.2169d2e4.css",
+    "src": "pages/job.css"
   },
   "pages/resume.css": {
     "resourceType": "style",
     "file": "resume.652b99fc.css",
     "src": "pages/resume.css"
+  },
+  "default.css": {
+    "resourceType": "style",
+    "file": "default.b6e0a1b4.css",
+    "src": "default.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
@@ -65,31 +60,79 @@
     "file": "error-404.23f2309d.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
-  "default.css": {
+  "pages/index.css": {
     "resourceType": "style",
-    "file": "default.b6e0a1b4.css",
-    "src": "default.css"
+    "file": "index.74aca4f4.css",
+    "src": "pages/index.css"
   },
-  "_composables.3ae7e777.js": {
+  "pages/company/profile.css": {
+    "resourceType": "style",
+    "file": "resume-maker.e18dd131.css",
+    "src": "pages/company/profile.css"
+  },
+  "_composables.9d87727a.js": {
     "resourceType": "script",
     "module": true,
-    "file": "composables.3ae7e777.js",
+    "file": "composables.9d87727a.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_b.0442dfc8.js": {
+  "pages/jobs.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "b.0442dfc8.js",
-    "assets": [
-      "b.8d0aae53.jpg"
-    ]
+    "file": "jobs.7d91d74d.js",
+    "src": "pages/jobs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_b.0442dfc8.js"
+    ],
+    "css": []
   },
-  "b.8d0aae53.jpg": {
-    "file": "b.8d0aae53.jpg",
-    "resourceType": "image",
-    "mimeType": "image/jpeg"
+  "pages/articles.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "articles.42a5ea3b.js",
+    "src": "pages/articles.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_b.0442dfc8.js"
+    ],
+    "css": []
+  },
+  "pages/article.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "article.34f87b55.js",
+    "src": "pages/article.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_b.0442dfc8.js",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": []
+  },
+  "article.2169d2e4.css": {
+    "file": "article.2169d2e4.css",
+    "resourceType": "style"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "error-500.6c332e24.js",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_composables.9d87727a.js",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": []
+  },
+  "error-500.aa16ed4d.css": {
+    "file": "error-500.aa16ed4d.css",
+    "resourceType": "style"
   },
   "_avatar.7dd94524.js": {
     "resourceType": "script",
@@ -104,11 +147,11 @@
     "resourceType": "image",
     "mimeType": "image/png"
   },
-  "pages/jobs.vue": {
+  "pages/requests.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "jobs.88387b0e.js",
-    "src": "pages/jobs.vue",
+    "file": "requests.35fed168.js",
+    "src": "pages/requests.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
@@ -116,22 +159,25 @@
     ],
     "css": []
   },
-  "pages/company/jobs.vue": {
+  "layouts/default.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "jobs.60ee5a1c.js",
-    "src": "pages/company/jobs.vue",
+    "file": "default.09ab615e.js",
+    "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs",
-      "_b.0442dfc8.js"
+      "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": []
+  },
+  "default.b6e0a1b4.css": {
+    "file": "default.b6e0a1b4.css",
+    "resourceType": "style"
   },
   "virtual:nuxt:F:/PROJECTS/2023/highjob/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.801e39c7.js",
+    "file": "error-component.4735f980.js",
     "src": "virtual:nuxt:F:/PROJECTS/2023/highjob/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -145,7 +191,7 @@
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.102c29da.js",
+    "file": "index.3621c265.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -156,12 +202,8 @@
       "a.35e3ec44.png"
     ]
   },
-  "index.40cb2333.css": {
-    "file": "index.40cb2333.css",
-    "resourceType": "style"
-  },
-  "default.b6e0a1b4.css": {
-    "file": "default.b6e0a1b4.css",
+  "index.74aca4f4.css": {
+    "file": "index.74aca4f4.css",
     "resourceType": "style"
   },
   "a.35e3ec44.png": {
@@ -169,49 +211,23 @@
     "resourceType": "image",
     "mimeType": "image/png"
   },
-  "pages/articles.vue": {
+  "_b.0442dfc8.js": {
     "resourceType": "script",
     "module": true,
-    "file": "articles.209fcaac.js",
-    "src": "pages/articles.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs",
-      "_b.0442dfc8.js"
-    ],
-    "css": []
+    "file": "b.0442dfc8.js",
+    "assets": [
+      "b.8d0aae53.jpg"
+    ]
   },
-  "layouts/default.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "default.11b86734.js",
-    "src": "layouts/default.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ],
-    "css": []
-  },
-  "pages/job.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "job.0ef96190.js",
-    "src": "pages/job.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "_b.0442dfc8.js",
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ],
-    "css": []
-  },
-  "job.2169d2e4.css": {
-    "file": "job.2169d2e4.css",
-    "resourceType": "style"
+  "b.8d0aae53.jpg": {
+    "file": "b.8d0aae53.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
   },
   "pages/company/resumes.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "resumes.ed97dfc3.js",
+    "file": "resumes.67f6ba32.js",
     "src": "pages/company/resumes.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -220,27 +236,39 @@
     ],
     "css": []
   },
-  "pages/company/profile.vue": {
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "profile.1a5e7645.js",
-    "src": "pages/company/profile.vue",
+    "file": "error-404.73ea9830.js",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_b.0442dfc8.js",
-      "node_modules/nuxt/dist/app/entry.mjs"
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_composables.9d87727a.js"
     ],
     "css": []
   },
-  "profile.e18dd131.css": {
-    "file": "profile.e18dd131.css",
+  "error-404.23f2309d.css": {
+    "file": "error-404.23f2309d.css",
     "resourceType": "style"
   },
-  "pages/company/resume.vue": {
+  "pages/company/jobs.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "resume.452239a0.js",
-    "src": "pages/company/resume.vue",
+    "file": "jobs.47a4994e.js",
+    "src": "pages/company/jobs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_b.0442dfc8.js"
+    ],
+    "css": []
+  },
+  "pages/resume.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "resume.d8d84d42.js",
+    "src": "pages/resume.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
@@ -251,65 +279,10 @@
     "file": "resume.652b99fc.css",
     "resourceType": "style"
   },
-  "pages/requests.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "requests.73f57274.js",
-    "src": "pages/requests.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs",
-      "_b.0442dfc8.js"
-    ],
-    "css": []
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "error-500.ac1f6ce4.js",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "_composables.3ae7e777.js",
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ],
-    "css": []
-  },
-  "error-500.aa16ed4d.css": {
-    "file": "error-500.aa16ed4d.css",
-    "resourceType": "style"
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "error-404.982ee51c.js",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs",
-      "_composables.3ae7e777.js"
-    ],
-    "css": []
-  },
-  "error-404.23f2309d.css": {
-    "file": "error-404.23f2309d.css",
-    "resourceType": "style"
-  },
-  "pages/company/new/job.vue": {
-    "resourceType": "script",
-    "module": true,
-    "file": "job.0c77eba9.js",
-    "src": "pages/company/new/job.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.mjs"
-    ],
-    "css": []
-  },
   "pages/resume-maker.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "resume-maker.af77e416.js",
+    "file": "resume-maker.7cbeb1b9.js",
     "src": "pages/resume-maker.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -318,11 +291,26 @@
     ],
     "css": []
   },
-  "pages/article.vue": {
+  "resume-maker.e18dd131.css": {
+    "file": "resume-maker.e18dd131.css",
+    "resourceType": "style"
+  },
+  "pages/company/resume.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "article.048edf0d.js",
-    "src": "pages/article.vue",
+    "file": "resume.722049a6.js",
+    "src": "pages/company/resume.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": []
+  },
+  "pages/job.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "job.e0528a3f.js",
+    "src": "pages/job.vue",
     "isDynamicEntry": true,
     "imports": [
       "_b.0442dfc8.js",
@@ -330,13 +318,25 @@
     ],
     "css": []
   },
-  "pages/resume.vue": {
+  "pages/company/new/job.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "resume.29602b13.js",
-    "src": "pages/resume.vue",
+    "file": "job.e6b1ac0a.js",
+    "src": "pages/company/new/job.vue",
     "isDynamicEntry": true,
     "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": []
+  },
+  "pages/company/profile.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "profile.25bd15d9.js",
+    "src": "pages/company/profile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_b.0442dfc8.js",
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": []
@@ -344,7 +344,7 @@
   "pages/login.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "login.5f5fe16f.js",
+    "file": "login.36f359ae.js",
     "src": "pages/login.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -354,7 +354,7 @@
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.098a01e7.js",
+    "file": "entry.4eed3db1.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -362,15 +362,10 @@
       "virtual:nuxt:F:/PROJECTS/2023/highjob/.nuxt/error-component.mjs"
     ]
   },
-  "pages/company/profile.css": {
+  "pages/article.css": {
     "resourceType": "style",
-    "file": "profile.e18dd131.css",
-    "src": "pages/company/new/job.css"
-  },
-  "pages/job.css": {
-    "resourceType": "style",
-    "file": "job.2169d2e4.css",
-    "src": "pages/article.css"
+    "file": "article.2169d2e4.css",
+    "src": "pages/job.css"
   },
   "pages/company/resume.css": {
     "resourceType": "style",
@@ -379,7 +374,12 @@
   },
   "pages/resume-maker.css": {
     "resourceType": "style",
-    "file": "profile.e18dd131.css",
-    "src": "pages/company/new/job.css"
+    "file": "resume-maker.e18dd131.css",
+    "src": "pages/company/profile.css"
+  },
+  "pages/company/new/job.css": {
+    "resourceType": "style",
+    "file": "resume-maker.e18dd131.css",
+    "src": "pages/company/profile.css"
   }
 }
