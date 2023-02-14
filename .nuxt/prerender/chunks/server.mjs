@@ -637,7 +637,7 @@ const _routes = [
     meta: __nuxt_page_meta$6,
     alias: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.alias) || [],
     redirect: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.redirect) || void 0,
-    component: () => import('./index-a5a28284.mjs').then((m) => m.default || m)
+    component: () => import('./index-e6e46141.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "job",

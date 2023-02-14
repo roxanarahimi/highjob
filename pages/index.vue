@@ -79,7 +79,7 @@ export default {
   .txt h5{
     font-size: 22px !important;
   }
-  .txt { padding-top: 0 !important; }
+  .txt { padding-top: 0; }
   .ss{
     padding-top: 0 !important;
     max-width: 210px !important;
