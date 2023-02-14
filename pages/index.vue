@@ -68,16 +68,8 @@ export default {
 
 <style>
 
-@media (min-width: 577px) {
-  .txt {
-    padding-top: 150px !important;
-    text-align: right !important;
-  }
-}
 @media (max-width: 576px) {
-  .txt {
-    padding-top: 0 !important;
-  }
+
   .txt h1{
     font-size: 60px !important;
   }
@@ -93,5 +85,11 @@ export default {
    }
 }
 
+/*@media (min-width: 577px) {*/
+  .txt {
+    padding-top: 150px !important;
+    text-align: right !important;
+  }
+/*}*/
 
 </style>
